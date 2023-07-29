@@ -1,0 +1,55 @@
+.Services-container{
+    /* display: flex; */
+    padding-top: 60px;
+    /* width: 100%; */
+    height: auto;
+    background-color: #ecf1f3;
+    /* background-image: linear-gradient(to bottom, #cad2d3, #d0eee6); */
+    text-align: center;
+    
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.box {
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid rgb(32, 141, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: none; */
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    background-color: #fff; /* Replace with your logo image or content */
+    /* Add your logo image as a background-image, if needed */
+  }
+  
+  .content {
+    text-align: center;
+  }
+.full-box{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
