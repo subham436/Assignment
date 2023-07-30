@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar.js";
 import Consult from "./Components/Consult.js"
 import About from "./Components/About.js";
 import Services from "./Components/Services.js";
+import Footer from "./Components/Footer.js"
 import Youtube from "./Components/YouTubeVideoPlayer.js";
 
 
@@ -21,6 +22,7 @@ function App() {
       <Consult />
       <About/>
        <Services/> 
+       <Footer />
 
     </div>
   );

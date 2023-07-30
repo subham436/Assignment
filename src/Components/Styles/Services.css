@@ -9,17 +9,26 @@
     
     padding-left: 14%;
     padding-right: 14%;
+    padding-bottom: 40px;
 }
 .box {
     padding-top: 20px;
     width: 250px;
     height: 200px;
-    border: 2px solid rgb(32, 141, 205);
+    background-color: white;
+    /* border: 2px solid rgb(32, 141, 205); */
     display: flex;
+    margin: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+  }
+  .box:hover{
+    border: 2px solid rgb(159 228 255);
+    /* width: 280px;
+    height: 250px; */
+    cursor:pointer;
   }
   
   .logo-container {
@@ -27,11 +36,11 @@
     top: -25px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     /* border: none; */
-    background-color: white; 
+    background-color: rgb(249 249 249);; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,8 +57,46 @@
   .content {
     text-align: center;
   }
+
+.content > h2{
+  font-size: 1.5rem;
+}
 .full-box{
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.large-icon {
+  font-size: 30px; /* Adjust the font-size to increase/decrease the icon size */
+}
+.services-btn {
+  /* Basic button styles */
+  /* background-color: #1a73e8; */
+  margin-top: 30px;
+  padding: 0;
+  background-color: rgb(32, 141, 205);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-radius 0.3s; /* Adding a transition effect for smoothness */
+}
+
+.services-btn:hover {
+  /* Rounded corners on hover */
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  .Services-container{
+      padding-left: 4%;
+      padding-right: 4%;
+  }
+  .box{
+    width: 100%;
+  }
+  
 }

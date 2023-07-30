@@ -18,35 +18,38 @@ export default function Services() {
             <div className="full-box">
             <div class="box">
                 <div class="logo-container">
-                    <PiggyBankFill/>
+                    <PiggyBankFill className="large-icon"/>
                     {/* <div class="logo"></div> */}
                 </div>
                 <div class="content">
-                    <h2>Heading</h2>
-                    <p>This is a paragraph inside the box.</p>
+                    <h2>Financial Consulting</h2>
+                    <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
             <div class="box">
                 <div class="logo-container">
-                    <MegaphoneFill/>
+                    <MegaphoneFill className="large-icon"/>
                     {/* <div class="logo"></div> */}
                 </div>
                 <div class="content">
-                    <h2>Heading</h2>
-                    <p>This is a paragraph inside the box.</p>
+                    <h2>Content Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
                 </div>
             </div>
             <div class="box">
                 <div class="logo-container">
-                    <Bank/>
+                    <Bank className="large-icon"/>
                     {/* <div class="logo"></div> */}
                 </div>
                 <div class="content">
-                    <h2>Heading</h2>
-                    <p>This is a paragraph inside the box.</p>
+                    <h2>Finance Advice</h2>
+                    <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
                 </div>
             </div>
             </div>
+            <button className="services-btn">All Services</button>
 
         </div>
 
